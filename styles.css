@@ -1,0 +1,63 @@
+/* add your CSS here */
+
+/*Maiing intersting fact italic */
+.fact{
+	font-style: italic;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+/*making labels bols*/
+.label{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* Removing default link decoration*/
+.list {
+  list-style-type: none;
+  margin: 0;
+}
+.list_item{
+	text-decoration: none;
+	margin-left: -22px;
+	
+}
+
+/* adding border around animals name image and information*/
+.wrapper{
+	border: 1px solid grey;
+	width: 400px;
+	height: 51em;
+	margin: 0 auto;
+	box-shadow: 10px 5px 5px grey;
+}
+
+
+/*border around animals information */
+.textContainer{
+	border: 1px solid grey;
+	width: 370px;;
+	height: 30em;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+/*Adding padding aroung animal name image and info*/
+h3{
+	padding: 20px 0px 0px 20px;
+	font-size: 25px;
+}
+
+/* Adding Padding around description text*/
+.description{
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+/*Adding style for fishImage*/
+
+.fishImage{
+	width: 370px;
+	margin: 0 15px 0 15px;
+}
